@@ -140,6 +140,11 @@ ul.user-list li:hover {
   border-bottom-right-radius: 10px;
 }
 
+ul.user-list li.premium {
+  border-radius: 4px;
+  filter: drop-shadow(0px 0px 5px #8f7b10);
+}
+
 .premium .ribbon {
   display: flex!important;
 }
@@ -150,7 +155,7 @@ ul.user-list li:hover {
     justify-content: center;
     align-items: center;
     width: 60px;
-    color: gold;
+    color: #8f7b10;
     font-weight: bold;
 }
 

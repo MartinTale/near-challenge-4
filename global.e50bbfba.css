@@ -132,11 +132,16 @@ ul.user-list li:hover {
 }
 
 .ribbon {
+  display: none!important;
   position: absolute;
   top: 0;
   left: 0;
   width: 60px!important;
   border-bottom-right-radius: 10px;
+}
+
+.premium .ribbon {
+  display: flex!important;
 }
 
 .ribbon span {
